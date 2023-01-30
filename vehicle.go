@@ -137,8 +137,8 @@ func generateRating() {
 				}
 			}
 		}
+		vehicleResult[v.Name] = vehResult
 	}
-	vehicleResult[v.Name] = vehResult
 
 }
 
