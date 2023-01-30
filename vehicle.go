@@ -85,7 +85,7 @@ func main() {
 	// Generate ratings for the different vehicles
 	generateRating()
 	// Print ratings for the different vehicles
-	for _, veh range inventory {
+	for _, veh := range inventory {
 		switch v := veh.(type) {
 		case car:
 			v.carDetails()
